@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", ui-serif, Georgia, serif;
+  
+  --color-cream: var(--theme-cream);
+  --color-cream-alt: var(--theme-cream-alt);
+  --color-surface: var(--theme-surface);
+  --color-ink: var(--theme-ink);
+  --color-ink-muted: var(--theme-ink-muted);
+  --color-pistachio: var(--theme-pistachio);
+  --color-pistachio-dark: var(--theme-pistachio-dark);
+  --color-pistachio-light: var(--theme-pistachio-light);
+  --color-primary-foreground: var(--theme-primary-foreground);
+}
+
+:root {
+  --theme-cream: #FAF9F5;
+  --theme-cream-alt: #F0EFE9;
+  --theme-surface: #FFFFFF;
+  --theme-ink: #232623;
+  --theme-ink-muted: #6B706B;
+  --theme-pistachio: #A1B594;
+  --theme-pistachio-dark: #5C7350;
+  --theme-pistachio-light: #E2E8DE;
+  --theme-primary-foreground: #FFFFFF;
+}
+
+.dark {
+  --theme-cream: #161816;
+  --theme-cream-alt: #1F221F;
+  --theme-surface: #1A1C1A;
+  --theme-ink: #FAF9F5;
+  --theme-ink-muted: #9CA399;
+  --theme-pistachio: #5C7350;
+  --theme-pistachio-dark: #A1B594;
+  --theme-pistachio-light: #2A3228;
+  --theme-primary-foreground: #161816;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
