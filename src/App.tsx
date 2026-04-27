@@ -572,12 +572,6 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-ink font-serif text-xl mb-6">Legal</h4>
-            <ul className="space-y-4">
-              <li><a href="#" className="text-ink-muted hover:text-ink transition-colors font-light">Privacy Policy</a></li>
-              <li><a href="#" className="text-ink-muted hover:text-ink transition-colors font-light">Terms of Service</a></li>
-              <li><a href="#" className="text-ink-muted hover:text-ink transition-colors font-light">Medical Disclaimer</a></li>
-            </ul>
           </div>
         </div>
         
